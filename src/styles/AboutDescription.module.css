@@ -8,9 +8,9 @@
     padding: 5vw;
     color: #333;
     font-weight: 700;
-    background-color: #fff4e4; /* Light background color */
+    background-color: #fff4e4; 
     border-radius: 8px;         
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /*  shadow for depth */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
     margin-top: 20px;           
     margin-left: auto;
     margin-right: auto;
@@ -37,6 +37,6 @@
     }
     
     .description-text {
-        font-size: 1rem;          /* Smaller font size for better readability */
+        font-size: 1rem;         
     }
 }

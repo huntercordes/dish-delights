@@ -8,7 +8,7 @@ function Favorites() {
     <div className={styles["header-wrapper"]}>
       <h1 className={styles.header}>My Favorite Recipes</h1>
       </div>
-      <FavoriteRecipes />  {/* The FavoriteRecipes component handles the list and form */}
+      <FavoriteRecipes /> 
     </div>
   );
 }

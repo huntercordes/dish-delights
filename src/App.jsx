@@ -18,8 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
   <Route path="/recipes" element={<Recipes />}>
-    <Route index element={<RecipeLists />} /> {/* Default to list */}
-    <Route path=":id" element={<RecipeDetails />} /> {/* Details page */}
+    <Route index element={<RecipeLists />} /> 
+    <Route path=":id" element={<RecipeDetails />} />
   </Route>
 
        <Route path="/favorites" element={<Favorites />} />

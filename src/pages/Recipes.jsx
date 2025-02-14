@@ -7,7 +7,7 @@ function Recipes() {
       <div className={styles["header-wrapper"]}>
         <h1 className={styles.header}>Welcome to DishDelights Recipes</h1>
       </div>
-      <Outlet /> {/* This will dynamically load RecipesList or RecipeDetails */}
+      <Outlet /> {/* This will load RecipesList or RecipeDetails */}
     </div>
   );
 }
