@@ -1,0 +1,116 @@
+
+/* Container for the entire favorite recipes section */
+.favorite-recipes-container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100vw;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #fff4e4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+  }
+  
+  /* Form Styling */
+  .recipe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .recipe-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+  }
+  
+  .recipe-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #004721;
+    color: #fff4e4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .recipe-form button:hover {
+    background-color: #1d6139;
+  }
+  
+  /* Recipe List Styling */
+  .recipe-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recipe-list li {
+    background-color: rgb(236, 250, 204);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  .recipe-header{
+    color: #0e0a0a;
+    font-size: 1.6rem;
+    font-weight: 800;
+    font-family: "Cormorant", serif;
+  }
+  
+  .recipe-list h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: "Cormorant", serif;
+    margin: 0;
+    color: #0e0a0a;
+  }
+  
+  .recipe-list p {
+    font-size: 1rem;
+    margin: 5px 0;
+    font-weight: 700;
+    font-family: "Cormorant", serif;
+  }
+  
+  .recipe-list button {
+    padding: 8px 16px;
+    background-color: #004721;
+    color: #fff4e4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .recipe-list button:hover {
+    background-color: #49835f;
+  }
+  
+  /* Responsive Styling underneath */
+  @media (max-width: 768px) {
+    .recipe-form {
+      gap: 10px;
+    }
+  
+    .recipe-form input {
+      padding: 8px;
+    }
+  
+    .recipe-form button {
+      padding: 8px 16px;
+    }
+  
+    .recipe-list li {
+      padding: 10px;
+    }
+  }
+  

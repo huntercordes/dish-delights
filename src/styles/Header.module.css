@@ -1,0 +1,24 @@
+.header-wrapper {
+  width: 100%;
+  position: relative;   
+  margin-top: 80px;        
+padding: 0 20px;
+}
+
+/* Header styling */
+.header {
+  width: 100%;
+ font-family: "Cormorant", serif;
+  font-size: 2.5rem;     
+  text-align: center;    
+  color: #004721;          
+  margin: 0;             
+  padding-top: 20px;     /* Space between navbar and header */
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 2rem;   
+    padding-top: 15px;  /* Reduce padding on mobile */
+  }
+}

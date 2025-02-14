@@ -1,0 +1,34 @@
+import "./App.css"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/NavBar";
+import Home from "./pages/Home";
+import Recipes from "./pages/Recipes";
+import RecipeDetails from "./components/RecipeDetails";
+import RecipeLists from "./components/RecipeLists";
+import Favorites from "./pages/Favorites";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
+
+
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+  <Route path="/recipes" element={<Recipes />}>
+    <Route index element={<RecipeLists />} /> {/* Default to list */}
+    <Route path=":id" element={<RecipeDetails />} /> {/* Details page */}
+  </Route>
+
+       <Route path="/favorites" element={<Favorites />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </Router>
+  );
+}
+
+export default App;

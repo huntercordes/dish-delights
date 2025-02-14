@@ -1,0 +1,50 @@
+
+.contact-container {
+    width: 100vw;
+    max-width: 100%; 
+    padding: 20px;
+    background-color: #fff4e4;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+    display: block; /* Change from flex to block for full-width behavior */
+}
+
+.contact-container h3 {
+    font-size: 1.5rem;
+    font-family: "Cormorant", serif;
+    color: #074724; /* Match the brand color */
+    margin-top: 20px;
+}
+
+.contact-container p {
+    font-size: 1.2rem;
+    color: #0c0707;
+    font-weight: 600;
+    font-family: "Cormorant", serif;
+    margin: 5px 0;
+}
+
+.contact-container a {
+    color: #305849;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-container a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 15px;
+    }
+
+    .contact-container h3 {
+        font-size: 1.25rem;
+    }
+
+    .contact-container p {
+        font-size: 1rem;
+    }
+}

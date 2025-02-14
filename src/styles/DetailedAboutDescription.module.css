@@ -1,0 +1,30 @@
+.description-container {
+    width: 100%;
+    max-width: 1280px;
+    font-weight: 700;
+    font-family: "Cormorant", serif;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff4e4; 
+    border-radius: 8px;         
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;           
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .description-title {
+    font-size: 2rem;            
+    font-weight: bold;          
+    text-align: center;         
+    color: #070606;                
+    margin-bottom: 20px;        
+  }
+  
+  .description-text {
+    font-size: 1.2rem;       
+    color: #080404;                
+    line-height: 1.6;           
+    text-align: justify;        
+    margin-bottom: 20px;        
+  }
